@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hw-9-python-web"
+version = "0.1.0"
+description = ""
+authors = ["evgen-kulik <e.kulik.atom@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_9_python_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.9.3"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+sqlalchemy = "^2.0.19"
+mongoengine = "^0.27.0"
+scrapy = "^2.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
